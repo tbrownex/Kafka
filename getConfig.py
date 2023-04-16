@@ -12,8 +12,7 @@ __author__ = "The Hackett Group"
 def getConfig():
 
     d = {}
-    d["dataLoc"]    = "~/data/"
-    d["fileName"]  = "SUSY.csv.gz"
+    d["dataLoc"]    = "/home/tbrownex/data/iot/"
     d["labelColumn"] = "class"
     d["logLoc"]     = "/home/tbrownex/"
     d["logFile"]    = "SUSY.log"
